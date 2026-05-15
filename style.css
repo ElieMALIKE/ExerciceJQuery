@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+.entete{
+    border: 1px solid black;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 150px;
+}
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.bloc{
+    transition: transform 400ms;
+}
+.bloc:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    width: 170px;
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* film animation */
+.mario{
+    background-image: url(Images/super_mario_bros.jpg);
+}
+.dragon{
+    background-image: url(Images/how_to_train_your_dragon.jpg);
+}
+.croods{
+    background-image: url(Images/croods_2.jpg);
+}
+.neige{
+    background-image: url(Images/La-Reine-des-Neiges-1.jpg);
+}
+
+/* film policers */
+.flic{
+    background-image: url(Images/le-flic-de-beverly-hills-1-.jpg.webp);
+}
+.boys{
+    background-image: url(Images/bad_boys.webp);
+}
+.die{
+    background-image: url(Images/Die_Hard.jpg);
+}
+.shaft{
+    background-image: url(Images/Shaft.jpg);
+}
+
+/* film basé sur de faits réel */
+.figure{
+    background-image: url(Images/les_figures_de_l_ombre.jpg);
+}
+.bob{
+    background-image: url(Images/bob_marley_one_love.jpg);
+}
+.compton{
+    background-image: url(Images/Strainght_outta_compton.jpg);
+}
+.num24{
+    background-image: url(Images/Numéro_24.jpg);
+}
+.dolemite{
+    background-image: url(Images/dolemite_is_my_name.webp);
+}
+
+.footer{
+    background-color: black;
+    border: 1px black solid;
+    margin-top: 40px;
+    color: white;
+}
