@@ -117,7 +117,7 @@ a{
 /* mise en page */
 
 .aside{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: 0 ;
     left: 0;
@@ -177,4 +177,14 @@ a{
     color: white;
     font-weight: bolder;
     font-size: 1.4em;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.footer h3{
+    margin: 40px;
 }
